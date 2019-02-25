@@ -1,0 +1,14 @@
+D:\ASP\Payment_WebAPI\bin\Debug\netcoreapp2.1\Payment_WebAPI.deps.json
+D:\ASP\Payment_WebAPI\bin\Debug\netcoreapp2.1\Payment_WebAPI.runtimeconfig.json
+D:\ASP\Payment_WebAPI\bin\Debug\netcoreapp2.1\Payment_WebAPI.runtimeconfig.dev.json
+D:\ASP\Payment_WebAPI\bin\Debug\netcoreapp2.1\Payment_WebAPI.dll
+D:\ASP\Payment_WebAPI\bin\Debug\netcoreapp2.1\Payment_WebAPI.pdb
+D:\ASP\Payment_WebAPI\obj\Debug\netcoreapp2.1\Payment_WebAPI.csprojAssemblyReference.cache
+D:\ASP\Payment_WebAPI\obj\Debug\netcoreapp2.1\Payment_WebAPI.csproj.CoreCompileInputs.cache
+D:\ASP\Payment_WebAPI\obj\Debug\netcoreapp2.1\Payment_WebAPI.RazorAssemblyInfo.cache
+D:\ASP\Payment_WebAPI\obj\Debug\netcoreapp2.1\Payment_WebAPI.RazorAssemblyInfo.cs
+D:\ASP\Payment_WebAPI\obj\Debug\netcoreapp2.1\Payment_WebAPI.AssemblyInfoInputs.cache
+D:\ASP\Payment_WebAPI\obj\Debug\netcoreapp2.1\Payment_WebAPI.AssemblyInfo.cs
+D:\ASP\Payment_WebAPI\obj\Debug\netcoreapp2.1\Payment_WebAPI.RazorTargetAssemblyInfo.cache
+D:\ASP\Payment_WebAPI\obj\Debug\netcoreapp2.1\Payment_WebAPI.dll
+D:\ASP\Payment_WebAPI\obj\Debug\netcoreapp2.1\Payment_WebAPI.pdb
