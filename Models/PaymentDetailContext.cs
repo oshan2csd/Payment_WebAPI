@@ -12,6 +12,7 @@ namespace Payment_WebAPI.Models
         {
         }
 
+        //property for this class
         public DbSet<PaymentDetail> paymentDetails { get; set; }
     }
 }
