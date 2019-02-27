@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Newtonsoft.Json.Serialization;
 using Payment_WebAPI.Models;
 
 namespace Payment_WebAPI
@@ -26,7 +27,21 @@ namespace Payment_WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMvc()
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
+                
+                //disabling extra conversions when returning results
+                //this will prevent following naming conventions, but return column names as it is in the db
+                .AddJsonOptions(options =>
+                {
+                    var resolver = options.SerializerSettings.ContractResolver;
+                    if (resolver != null)
+                    {
+                        (resolver as DefaultContractResolver).NamingStrategy = null;
+                    }
+                });
+
+            
             //adding db connection with "DEPENDENCY INJECTION"
             services.AddDbContext<PaymentDetailContext>(options => 
                 options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
