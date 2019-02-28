@@ -12344,11 +12344,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP\\Payment_WebAPI\\Payment_WebAPI.csproj",
+      "projectUniqueName": "D:\\ASP\\PayAPI_Angular_7_CRUD\\Payment_WebAPI\\Payment_WebAPI.csproj",
       "projectName": "Payment_WebAPI",
-      "projectPath": "D:\\ASP\\Payment_WebAPI\\Payment_WebAPI.csproj",
+      "projectPath": "D:\\ASP\\PayAPI_Angular_7_CRUD\\Payment_WebAPI\\Payment_WebAPI.csproj",
       "packagesPath": "C:\\Users\\OSH-PC 2\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP\\Payment_WebAPI\\obj\\",
+      "outputPath": "D:\\ASP\\PayAPI_Angular_7_CRUD\\Payment_WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
